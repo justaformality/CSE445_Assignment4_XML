@@ -20,11 +20,11 @@
 										<xsd:element name="State" type="xsd:string"/>
 										<xsd:element name="Zip" type="xsd:string"/>
 									</xsd:sequence>
-									<xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
 								</xsd:complexType>
 							</xsd:element>
 						</xsd:sequence>
 						<xsd:attribute name="Rating" type="xsd:string" use="optional"/>
+						<xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
 					</xsd:complexType>
 				</xsd:element>
 			</xsd:sequence>
@@ -32,5 +32,3 @@
 	</xsd:element>
 
 </xsd:schema>
-
-
